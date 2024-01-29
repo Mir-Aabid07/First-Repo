@@ -1,9 +1,108 @@
 h1{
     color:red;
+    text-align: center;
     font-size: 16;
     background-color: aqua;
+    
 }
-h2{
-    color:yellow;
-    font-size: 12;
+body{
+    background-color: rgb(172, 123, 63);
+}
+#navbar {
+    
+    background-color: brown;
+    height: 40px;
+    border: 3px;
+    border-style: solid;
+    overflow: auto;
+    border-color: green;
+   
+}
+input{
+    align-items: center;
+}
+#navbar a{
+    margin: 90px;
+   
+    text-align: center;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+#box1{
+   
+    height: 100px;
+    width:100px;
+    background-color: blueviolet;
+    text-align: center;
+    border: 2px solid;
+    }
+
+#box2{
+    height: 100px;
+    width:100px;
+    background-color: blueviolet;
+    text-align: center;
+    border: 2px solid;
+    position: fixed;
+    right: 20px;
+    top:140px
+}
+#box3{
+    height: 100px;
+    width:100px;
+    background-color: blueviolet;
+    text-align: center;
+    border: 2px solid;
+    position:fixed;
+    left:20px;
+    bottom: 40px;
+}
+#box4{
+    height: 100px;
+    width:100px;
+    background-color: blueviolet;
+    text-align: center;
+    border: 2px solid;
+    position: fixed;
+    right:20px;
+    bottom: 40px;
+}
+
+#box0{
+    height: 100px;
+    width:100px;
+    background-color: blueviolet;
+    text-align: center;
+    border: 2px solid;
+    position: fixed;
+    left:600px;
+    background-image:url(photo1.jpg);
+    background-size: contain;
+   
+
+}
+#box5{
+    height: 100px;
+    width:100px;
+    background-color: blueviolet;
+    text-align: center;
+    border: 2px solid;
+    position: fixed;
+    left:550px;
+    top:350px;
+    z-index: -1;
+}
+navbar a:hover{
+    background-color: aquamarine;
+}
+footer{
+    text-align: center;
+    background-color: brown;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
